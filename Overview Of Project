@@ -1,0 +1,43 @@
+### Overview
+
+This repository contains code for predicting house prices using the Ames Housing dataset. The project employs advanced regression techniques implemented with TensorFlow Decision Forests, specifically focusing on Random Forest models. It includes data preprocessing, model training, evaluation, and prediction steps.
+
+### Files Included
+
+- **train.csv**: Contains the training dataset with features and target variable (`SalePrice`).
+- **test.csv**: Holds the test dataset for final predictions.
+- **README.md**: Provides an overview of the project, setup instructions, and usage guidelines.
+- **requirements.txt**: Lists dependencies required to run the code.
+- **submission.csv**: Output file containing predicted house prices for the test dataset.
+
+### Usage
+
+1. **Setup**: Ensure Python environment is set up with dependencies from `requirements.txt`.
+2. **Data Loading**: Load the training and test datasets (`train.csv`, `test.csv`).
+3. **Preprocessing**: Remove unnecessary columns and split data into training and validation sets.
+4. **Model Training**: Utilize TensorFlow Decision Forests to train a Random Forest regression model.
+5. **Evaluation**: Assess model performance using metrics like Mean Squared Error (MSE) on the validation set.
+6. **Prediction**: Generate predictions for house prices on the test dataset and save results to `submission.csv`.
+
+### Dependencies
+
+Ensure the following Python packages are installed:
+
+```plaintext
+tensorflow-decision-forests==1.2.0
+pandas
+numpy
+```
+
+### Notes
+
+- This project showcases a machine learning pipeline for predicting house prices based on structured data.
+- For detailed implementation and usage instructions, refer to the README.md file in this repository.
+
+### Author
+
+Shubham Vats
+
+### License
+
+This project is licensed under the MIT License.
